@@ -1,9 +1,22 @@
-* {
-    color:#D8DEE9;
-    background-color:#434C5E;
+:root{
+    --main-background-color: #3b4252;
+    --focus-background-color: #2e3440;
+    --light-background-color: #4c566a;
+    --main-text-color: #e5e9f0;
+    --unfocused-text-color: #d8dee9;
+    --clear-text-color: #eceff4;
 }
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}
+
 h1{
-    color:#E5E9F0;
+    color: var(--main-text-color);
     text-align: center;
 }
-    
+
+#principal{
+    position: fixe;
+}
