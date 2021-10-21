@@ -17,6 +17,23 @@ h1{
     text-align: center;
 }
 
-#principal{
-    position: fixe;
+.principal{
+}
+.contenu{
+	padding: 16px;
+	text-align: justify;
+	width: 100vw;
+	height: 200px; 
+}
+.sticky{
+	position: fixed;
+}
+
+.sticky + .contenu{
+	padding: 120px;
+}
+
+.table{
+	border: none;
+	border-collapse: collapse;
 }
