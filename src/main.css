@@ -12,7 +12,9 @@ body {
 	color: var(--unfocused-text-color);
     margin: 0px;
 }
-
+div {
+    float: inherit;
+}
 h1{
     color: var(--main-text-color);
     text-align: center;
@@ -24,21 +26,25 @@ h1{
 }
 
 .contenu{
-	text-align: justify;
+    text-align: justify;
 	width: 100vw;
-	height: 200px; 
+	height: 200px;
+    font-family: Roboto;
 }
 .corps{
 	padding:20px;
 }
-.contact{
-	margin-top: 15px;
+.ligne{
+    display: table;
+    table-layout: fixed;
 	padding: 20px 20px 20px 20px;
 	width: 100vw;
     color: var(--main-text-color);
     background-color: var(--main-background-color);
 }
-
+.colomne{
+    display: table-cell;
+}
 .sticky{
 	position: fixed;
 }
@@ -47,7 +53,20 @@ h1{
 	padding: 120px;
 }
 
-.table{
-	border: none;
-	border-collapse: collapse;
+}
+th{
+    min-width: 200px;
+}
+.C{
+    padding:20px;
+    display:inline-block;
+    min-width: 30px;
+}
+
+p{
+    margin:0px;
+}
+
+.contact{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
