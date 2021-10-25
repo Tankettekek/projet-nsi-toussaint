@@ -25,8 +25,3 @@ Projet Site NSI
 
 
 
-
-
-
-
-Rien ici non plus.
