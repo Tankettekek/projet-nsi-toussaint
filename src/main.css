@@ -53,10 +53,6 @@ h1{
 	padding: 120px;
 }
 
-}
-th{
-    min-width: 200px;
-}
 .C{
     padding:20px;
     display:inline-block;
@@ -69,4 +65,13 @@ p{
 
 .contact{
     font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.prez{
+    
+    background-color: #ECEFF4;
+    width: 60%;
+    height:100px;
+    text-align:center;
+    margin:0 auto;
+    border-radius:  20px;
 }
