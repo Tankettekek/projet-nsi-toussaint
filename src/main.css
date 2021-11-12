@@ -16,30 +16,33 @@ body {
 div {
     float: inherit;
 }
-h1{
+h1 {
     color: var(--main-text-color);
     text-align: center;
 }
 
-.principal{
+p {
+    margin:0px;
+}
+.principal {
 	background-color: var(--main-background-color);
 	color: var(--main-text-color);
 }
 
-.contenu{
+.contenu {
     text-align: justify;
 	width: 100vw;
 	height: 200px;
     font-family: Roboto;
 }
-.corps{
+.corps {
 	padding:20px;
 }
-.ligne{
+.ligne {
     display: table;
     table-layout: fixed;
-	padding: 20px 20px 20px 20px;
-	width: 100vw;
+    padding: 20px 20px 20px 20px;
+    width: 100vw;
     color: var(--main-text-color);
     background-color: var(--main-background-color);
 }
@@ -47,11 +50,11 @@ h1{
     display: table-cell;
 }
 .sticky{
-	position: fixed;
+    position: fixed;
 }
 
 .sticky + .contenu{
-	padding: 120px;
+    padding: 120px;
 }
 
 .C{
@@ -60,13 +63,8 @@ h1{
     min-width: 30px;
 }
 
-p{
-    margin:0px;
-}
-
 .prez{
-    
-    background-color: #ECEFF4;
+    background-color: var(--clear-text-color);
     width: 60%;
     height: auto;
     text-align:center;
@@ -75,7 +73,7 @@ p{
     border-radius:  20px;
 }
 .preztxt{
-    color:#2E3440;
+    color: var(--focus-background-color);
     text-align:left;
     margin:10px;
     margin-top:0;
