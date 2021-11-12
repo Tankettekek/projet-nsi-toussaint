@@ -29,6 +29,9 @@ p {
   flex-direction: row;
 	background-color: var(--main-background-color);
 	color: var(--main-text-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .boutons{
@@ -48,12 +51,19 @@ p {
 
 .contenu {
     text-align: justify;
-	width: 100vw;
-	height: 200px;
+	  width: 100vw;
+	  height: 200px;
+    margin-top: 120px;
     font-family: Roboto;
 }
 .corps {
 	padding:20px;
+}
+
+.contact{
+  position: fixed;
+  bottom:0;
+  width: 100%;
 }
 .ligne {
     display: table;
@@ -65,13 +75,6 @@ p {
 }
 .colomne{
     display: table-cell;
-}
-.sticky{
-    position: fixed;
-}
-
-.sticky + .contenu{
-    padding: 120px;
 }
 
 .C{
