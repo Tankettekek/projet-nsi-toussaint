@@ -25,8 +25,25 @@ p {
     margin:0px;
 }
 .principal {
+  display: flex;
+  flex-direction: row;
 	background-color: var(--main-background-color);
 	color: var(--main-text-color);
+}
+
+.boutons{
+    height: 15%;
+    margin-top: 50px;
+    margin-right: 5px;
+    color: var(--main-text-color);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--main-text-color);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .contenu {
