@@ -58,6 +58,7 @@ p {
 }
 .corps {
 	padding:20px;
+    padding-bottom: 163.438px;
 }
 
 .contact{
@@ -97,4 +98,7 @@ p {
     text-align:left;
     margin:10px;
     margin-top:0;
+}
+.logo1{
+   margin-right: 20px; 
 }
