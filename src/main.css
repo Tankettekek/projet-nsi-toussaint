@@ -6,12 +6,13 @@
     --unfocused-text-color: #d8dee9;
     --clear-text-color: #eceff4;
 }
-
+html *{
+  font-family:Roboto;
+}
 body {
     background: var(--light-background-color);
     color: var(--unfocused-text-color);
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
 }
 div {
     float: inherit;
@@ -61,6 +62,17 @@ p {
     padding-bottom: 163.438px;
 }
 
+.campus{
+   border-radius:15px;
+   display:flex;
+   padding: 20px;                                                                                                          background-color: var(--main-background-color);  
+   flex-direction: row;
+}
+
+.campus_text{
+	margin-left:20px;
+	width:50vw;  
+}
 .contact{
   width: 100%;
 }
@@ -98,5 +110,6 @@ p {
     margin-top:0;
 }
 .logo1{
-   margin-right: 20px; 
+   margin: 5px;
+   margin-right: 20px;
 }
