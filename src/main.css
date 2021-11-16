@@ -59,7 +59,7 @@ p {
 }
 .corps {
     padding:20px;
-    padding-bottom: 163.438px;
+    padding-bottom: 60px;
 }
 
 .campus{
@@ -72,6 +72,7 @@ p {
 .campus_text{
 	margin-left:20px;
 	width:50vw;  
+    font-size: 25px;
 }
 .contact{
   width: 100%;
