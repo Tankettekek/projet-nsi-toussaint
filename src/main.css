@@ -27,8 +27,8 @@ p {
 .principal {
   display: flex;
   flex-direction: row;
-	background-color: var(--main-background-color);
-	color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
   position: fixed;
   top: 0;
   width: 100%;
@@ -57,13 +57,11 @@ p {
     font-family: Roboto;
 }
 .corps {
-	padding:20px;
+    padding:20px;
     padding-bottom: 163.438px;
 }
 
 .contact{
-  position: fixed;
-  bottom:0;
   width: 100%;
 }
 .ligne {
