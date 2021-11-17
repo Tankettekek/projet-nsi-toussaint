@@ -6,9 +6,6 @@
     --unfocused-text-color: #d8dee9;
     --clear-text-color: #eceff4;
 }
-html *{
-  font-family:Roboto;
-}
 body {
     background: var(--light-background-color);
     color: var(--unfocused-text-color);
@@ -20,10 +17,14 @@ div {
 h1 {
     color: var(--main-text-color);
     text-align: center;
+    text-decoration: underline;
 }
-
+img,iframe{
+    border-radius: 15px;
+}
 p {
     margin:0px;
+    font-family: 'Roboto', sans-serif;
 }
 .principal {
   display: flex;
@@ -48,6 +49,7 @@ p {
     padding-right: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
+    cursor: pointer;
 }
 
 .contenu {
@@ -72,10 +74,14 @@ p {
 .campus_text{
 	margin-left:20px;
 	width:50vw;  
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 20px;
 }
 .contact{
-  width: 100%;
+    width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .ligne {
     display: table;
@@ -103,6 +109,8 @@ p {
     margin: 0 auto;
     padding: 8px;
     border-radius:  20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .preztxt{
     color: var(--focus-background-color);
@@ -113,4 +121,16 @@ p {
 .logo1{
    margin: 5px;
    margin-right: 20px;
+}
+.listeinfo{
+    line-height: 2;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+}
+.active{
+    border-radius: 7px;
+    border: 2px solid #009ed8;
+    text-shadow:0 0 0.125em currentColor,0 0 0.25em blue;
+    box-shadow: 0 0 0.125em currentColor;
 }
