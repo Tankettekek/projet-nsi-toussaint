@@ -19,12 +19,11 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
-<<<<<<< HEAD
+
 .h3{
     text-align:center;
 }
-=======
->>>>>>> d5cd14480f5004c09bbefa1050d4b1964f698a4e
+
 img,iframe{
     border-radius: 15px;
     padding:5px;
@@ -143,6 +142,7 @@ a{
     box-shadow: 0 0 0.125em currentColor;
 }
 .formation{
+	margin:10px 10px 10px 10px;
     padding: 20px;
 	font-family:Roboto;
 	font-size:15px;
@@ -151,6 +151,7 @@ a{
 .Form{
     background-color: var(--main-background-color);
     border-radius: 15px;
+	padding-top:10px;
 }
 td , th{
     border: 5px solid var(--light-background-color);
