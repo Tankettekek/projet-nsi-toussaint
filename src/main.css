@@ -57,6 +57,10 @@ p {
     padding-bottom: 1px;
     cursor: pointer;
 }
+.boutons:hover{
+    background-color:var(--main-text-color);
+    color: var(--main-background-color);
+}
 
 .contenu {
     text-align: justify;
