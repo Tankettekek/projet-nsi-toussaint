@@ -68,7 +68,8 @@ p {
 .campus{
    border-radius:15px;
    display:flex;
-   padding: 20px;                                                                                                          background-color: var(--main-background-color);  
+   padding: 20px;
+   background-color: var(--main-background-color);  
    flex-direction: row;
 }
 
@@ -137,13 +138,19 @@ a{
 }
 .formation{
     padding: 20px;
+	font-family:Roboto;
+	font-size:15px;
+	border-collapse:collapse;
 }
 .Form{
     background-color: var(--main-background-color);
     border-radius: 15px;
 }
 td , th{
-    border: 3px solid var(--light-background-color);
+    border: 5px solid var(--light-background-color);
+	padding:5px;
+	padding-top:9px;
+	text-align:center;
 }
 
 #image_index{
