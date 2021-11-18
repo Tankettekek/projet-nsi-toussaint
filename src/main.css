@@ -19,9 +19,12 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+<<<<<<< HEAD
 .h3{
     text-align:center;
 }
+=======
+>>>>>>> d5cd14480f5004c09bbefa1050d4b1964f698a4e
 img,iframe{
     border-radius: 15px;
     padding:5px;
@@ -105,9 +108,7 @@ p {
     display:inline-block;
     min-width: 30px;
 }
-.titre_index{
-	color: black;
-}
+
 .prez{
     background-color: var(--clear-text-color);
     width: 60%;
@@ -146,13 +147,10 @@ a{
 	font-family:Roboto;
 	font-size:15px;
 	border-collapse:collapse;
-	margin: 5px 5px 5px 5px;
 }
 .Form{
     background-color: var(--main-background-color);
     border-radius: 15px;
-    padding: 5px;
-    margin-top:5px;
 }
 td , th{
     border: 5px solid var(--light-background-color);
@@ -162,9 +160,12 @@ td , th{
 }
 
 #image_index{
-    padding:15px 0 15px 0;
+    padding:15px 15px 15px 15px;
     display:flex;
     flex-direction:column;
     align-items: center;
     justify-content:center;
+}
+.ad{
+		font-family:Roboto;
 }
