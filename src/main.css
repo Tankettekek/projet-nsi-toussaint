@@ -105,7 +105,9 @@ p {
     display:inline-block;
     min-width: 30px;
 }
-
+.titre_index{
+	color: black;
+}
 .prez{
     background-color: var(--clear-text-color);
     width: 60%;
