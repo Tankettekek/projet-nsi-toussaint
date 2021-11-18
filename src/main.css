@@ -21,6 +21,7 @@ h1 {
 }
 img,iframe{
     border-radius: 15px;
+    padding:5px;
 }
 p {
     margin:0px;
@@ -143,4 +144,12 @@ a{
 }
 td , th{
     border: 3px solid var(--light-background-color);
+}
+
+#image_index{
+    padding:15px 15px 15px 15px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
 }
