@@ -1,10 +1,13 @@
-:root{
+:root{ /* Definition de variables pour ne pas reutiliser les codes couleurs */
     --main-background-color: #3b4252;
     --focus-background-color: #2e3440;
     --light-background-color: #4c566a;
     --main-text-color: #e5e9f0;
     --unfocused-text-color: #d8dee9;
     --clear-text-color: #eceff4;
+}
+a{
+    font-family: 'Roboto', sans-serif;
 }
 body {
     background: var(--light-background-color);
@@ -19,16 +22,6 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
-.h2{
-    font-family: 'Bebas Neue', cursive;
-	font-size:40px;
-}
-
-.h3{
-    text-align:center;
-	font-family: 'Roboto', sans-serif;
-}
-
 img,iframe{
     border-radius: 15px;
     padding:5px;
@@ -36,6 +29,20 @@ img,iframe{
 p {
     margin:0px;
     font-family: 'Roboto', sans-serif;
+}
+td , th{
+    border: 5px solid var(--main-background-color);
+	padding:5px;
+	padding-top:9px;
+	text-align:center;
+}
+.h2{
+    font-family: 'Bebas Neue', cursive;
+	font-size:40px;
+}
+.h3{
+    text-align:center;
+	font-family: 'Roboto', sans-serif;
 }
 .principal {
   display: flex;
@@ -46,7 +53,6 @@ p {
   top: 0;
   width: 100%;
 }
-
 .boutons{
     height: 15%;
     margin-top: 50px;
@@ -66,7 +72,6 @@ p {
     background-color:var(--main-text-color);
     color: var(--main-background-color);
 }
-
 .contenu {
     text-align: justify;
 	  width: 100vw;
@@ -78,7 +83,6 @@ p {
     padding:20px;
     padding-bottom: 60px;
 }
-
 .campus{
    border-radius:15px;
    display:flex;
@@ -86,7 +90,6 @@ p {
    background-color: var(--main-background-color);  
    flex-direction: row;
 }
-
 .campus_text{
 	margin-left:20px;
 	width:50vw;  
@@ -110,13 +113,11 @@ p {
 .colomne{
     display: table-cell;
 }
-
 .C{
     padding:20px;
     display:inline-block;
     min-width: 30px;
 }
-
 .prez{
     width: 60%;
     height: auto;
@@ -139,9 +140,6 @@ p {
 }
 .listeinfo{
     line-height: 2;
-}
-a{
-    font-family: 'Roboto', sans-serif;
 }
 .active{
     border-radius: 7px;
@@ -173,20 +171,13 @@ a{
     border-radius: 15px;
 	padding-top:10px;
 }
-td , th{
-    border: 5px solid var(--main-background-color);
-	padding:5px;
-	padding-top:9px;
-	text-align:center;
+.ad{
+		font-family:Roboto;
 }
-
 #image_index{
     padding:15px 15px 15px 15px;
     display:flex;
     flex-direction:column;
     align-items: center;
     justify-content:center;
-}
-.ad{
-		font-family:Roboto;
 }
