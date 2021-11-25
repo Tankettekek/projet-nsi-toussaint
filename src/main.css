@@ -181,3 +181,10 @@ td , th{
     align-items: center;
     justify-content:center;
 }
+.lien_contacte{
+	text-decoration:none;
+	color:var(--main-text-color);
+}
+.lien_contacte:hover{
+	color:blue;
+}
